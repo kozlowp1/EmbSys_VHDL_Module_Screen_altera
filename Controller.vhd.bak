@@ -1,0 +1,175 @@
+library ieee ;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.all;
+
+entity Controller is 
+port(  
+ --slave interface
+ Clk : IN std_logic;
+-- as_nReset : IN std_logic;
+-- as_Address : IN std_logic_vector (2 DOWNTO 0);
+-- as_ChipSelect : IN std_logic;
+-- as_Read : IN std_logic;
+-- as_Write : IN std_logic;
+-- as_ReadData : OUT std_logic_vector (31 DOWNTO 0);
+-- as_WriteData : IN std_logic_vector (31 DOWNTO 0);
+--
+-- -- master interface
+--  signal am_address : out std_logic_vector(31 downto 0);
+--  signal am_byteEenable : out std_logic_vector(3 downto 0);
+--  signal am_read : out std_logic;
+--  signal am_readData : in std_logic_vector(31 downto 0);
+--  signal am_write : out std_logic;
+--  signal am_writeData : out std_logic_vector(31 downto 0);
+--  signal am_waitrequest : in std_logic;
+--  signal am_ReadDataValid : in std_logic;
+--  signal am_BurstCount : out std_logic_vector(7 downto 0)
+--
+);
+end Controller;
+
+architecture behav of Controller is  
+--  --registers---
+--  --------------
+--  signal StartAddress: std_logic_vector(31 downto 0);
+--  signal PictureLength: std_logic_vector(31 downto 0); -- state
+--  signal DATA_CTR: std_logic_vector(17 downto 0);
+--  signal CMD_CTR: std_logic_vector(7 downto 0); -- we heave to choose bits from input register in registers
+--   --data is 32 bit, then cut off 
+--	--eg. CMD_CTR<=Data(7 downto 0)
+--  signal START:  std_logic;      --to start FSM  
+--  
+--  --FSM---------
+--  --------------
+--  TYPE State_type IS (zero, one);  
+--	SIGNAL State : State_Type;  
+--  --for the counter purpose
+--  signal start_cnt: std_logic:='0';
+--
+
+
+
+begin
+ 
+fifo_inst : entity work.fifo(SYN) PORT MAP (
+		clock	 => clock_sig,
+		data	 => data_sig,
+		rdreq	 => rdreq_sig,
+		sclr	 => sclr_sig,
+		wrreq	 => wrreq_sig,
+		almost_empty	 => almost_empty_sig,
+		almost_full	 => almost_full_sig,
+		empty	 => empty_sig,
+		full	 => full_sig,
+		q	 => q_sig,
+		usedw	 => usedw_sig
+	);
+
+   
+--
+--PROCESS (enable, nReset) 
+--  BEGIN 
+--    If (nReset = '0') THEN            -- Upon reset, set the state to A
+--	State <= one;
+--	pre_count <= (others => '0');
+----	period <= (others => '0'); 
+----	dutyCycle <= (others => '0'); 
+----	polarity <= (others => '0');
+--
+--    
+--    elsIF rising_edge(enable) THEN    -- if there is a rising edge of the
+--
+--	CASE State IS
+--
+--		WHEN zero => --(to_integer(unsigned(a)) < to_integer(unsigned(b)))
+--			IF pre_count > dutyCycle and pre_count < period THEN
+--				PWMout <= '0';
+--				pre_count <= pre_count + 1;
+--				--State <= zero;
+--			Elsif pre_count >= period THEN
+--				PWMout <= '1';
+--				pre_count <= (others => '0');
+--				State <= one;
+--			Else
+--				State <= one;
+--			END IF;
+--		WHEN one => 
+--			IF pre_count < dutyCycle THEN 
+--				PWMout <= '1';
+--				pre_count <= pre_count + 1;
+--				--State <= one;
+--			elsIF pre_count = dutyCycle THEN 
+--				PWMout <= '0';
+--				pre_count <= pre_count + 1;
+--			ELSE 
+--				PWMout <= '0';
+--				State <= zero;
+--				pre_count <= pre_count + 1;
+--			END IF; 
+--
+--		WHEN others =>
+--			null;
+--	END CASE; 
+--    END IF; 
+--  END PROCESS;
+--
+--
+--
+--Divider:
+--process(clk,nReset)
+--begin
+--	if(nReset='0') then
+--	count<=0;
+--	tmp<='1';
+--	elsif(clk'event and clk='1') then
+--	count <=count+1;
+--		if (count = 200) then
+--			tmp <= NOT tmp;
+--			count <= 0;
+--		end if;
+--	end if;
+--enable <= tmp;
+--end process;
+
+
+--slave interface processes for exchange of data
+--pRegWr:
+--process(Clk,as_nReset)
+--begin
+--If (as_nReset = '0') THEN            -- Upon reset, set the state to A
+--	--pre_count <= (others => '0');
+--	--period <= (others => '0'); 
+--	--dutyCycle <= (others => '0'); 
+--	--polarity <= (others => '0');
+--	elsif rising_edge(Clk) then
+--	if as_ChipSelect = '1' and as_Write = '1' then -- Write cycle
+--		case as_Address(2 downto 0) is
+--			when "000" => StartAddress <=as_WriteData;
+--			when "001" => PictureLength <= as_WriteData;
+--			when "010" => DATA_CTR <= as_WriteData;
+--			--when "101" => pre_count <= unsigned(WriteData);
+--			when others => null;
+--		end case;
+--	end if;
+--end if;
+--end process pRegWr;
+--
+--pRegRd:
+--process(Clk)
+--begin
+--if rising_edge(Clk) then
+--	as_ReadData <= (others => '0'); -- default value
+--	if as_ChipSelect = '1' and as_Read = '1' then -- Read cycle
+--		case as_Address(2 downto 0) is
+--		when "000" => as_ReadData <= std_logic_vector(StartAddress);
+--		when "001" => as_ReadData <= std_logic_vector(PictureLength);
+--		when "010" => as_ReadData <= std_logic_vector(DATA_CTR);
+--		when others => null;
+--	end case;
+--	end if;
+--end if;
+--end process pRegRd;
+
+end behav;
+

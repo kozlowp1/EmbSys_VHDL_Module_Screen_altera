@@ -1,0 +1,266 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PawelK/Desktop/EmbeddedSystems/Lab3/screen_modelsim
+Econtroller
+w1481375718
+Z0 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim
+8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Controller.vhd
+FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Controller.vhd
+l0
+L6
+VHf6H15zm_=OT1<`=aG9]l2
+!s100 g`Ve8TeL7=1jWR^>JV1Bj3
+Z4 OV;C;10.4d;61
+32
+!s110 1481377842
+!i10b 1
+!s108 1481377842.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Controller.vhd|
+!s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Controller.vhd|
+!i113 1
+Z5 o-work work -2002 -explicit
+Z6 tExplicit 1
+Ede0_nano_soc_trdb_d5m_lt24_top_level
+w1484232151
+DPx8 cyclonev 18 cyclonev_atom_pack 0 22 7m_3?ER^m`lJ;P@g>WSdP3
+DPx8 cyclonev 19 cyclonev_components 0 22 Y1SMazmlfT^N6ce3cZcWb3
+DPx12 altera_lnsim 23 altera_lnsim_components 0 22 Oc7BZ>JHn==<@iL2AS6dl0
+DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+DPx6 altera 11 dffeas_pack 0 22 f]3lf9@YecQXY?:9nU3z[2
+DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R1
+R2
+DPx6 altera 28 altera_primitives_components 0 22 Y1<AEW^7fEcRY3jd0@`=U2
+R3
+8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/quartus/simulation/modelsim/ES_mini_project_TRDB_D5M_LT24.vho
+FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/quartus/simulation/modelsim/ES_mini_project_TRDB_D5M_LT24.vho
+l0
+L39
+VcEc0nm_8SX@8>k2aAaPcY2
+!s100 :eX^4SACV<aV4f@iddYAD2
+R4
+32
+!s110 1484250942
+!i10b 1
+!s108 1484250942.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/quartus/simulation/modelsim/ES_mini_project_TRDB_D5M_LT24.vho|
+!s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/quartus/simulation/modelsim/ES_mini_project_TRDB_D5M_LT24.vho|
+!i113 1
+R5
+R6
+Efifo
+Z7 w1481371402
+R1
+R2
+R3
+Z8 8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/fifo.vhd
+Z9 FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/fifo.vhd
+l0
+L43
+VHOR]Q:4U@fPadga68XQl23
+!s100 OanJ`U?8N9H=zdAcK`^DH0
+R4
+32
+Z10 !s110 1483788600
+!i10b 1
+Z11 !s108 1483788600.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/fifo.vhd|
+Z13 !s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/fifo.vhd|
+!i113 1
+R5
+R6
+Asyn
+R1
+R2
+Z14 DEx4 work 4 fifo 0 22 HOR]Q:4U@fPadga68XQl23
+l102
+L61
+V2T55QdD>EQ7hNl=<kW<eX3
+!s100 h[4N71N70jPfGAd]V`7ol1
+R4
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R5
+R6
+Elcd_control
+Z15 w1484301410
+R0
+R1
+R2
+R3
+Z16 8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control.vhd
+Z17 FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control.vhd
+l0
+L6
+V8bAWRj[m6W_`WC?;<_7GF0
+!s100 >enX>c^Vb90?LVVAXGMYT3
+R4
+32
+Z18 !s110 1484301948
+!i10b 1
+Z19 !s108 1484301948.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control.vhd|
+Z21 !s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control.vhd|
+!i113 1
+R5
+R6
+Abehav
+R0
+R1
+R2
+Z22 DEx4 work 11 lcd_control 0 22 8bAWRj[m6W_`WC?;<_7GF0
+l59
+L41
+V;j@>0GY3H:XQnV3D^7UIK2
+!s100 EBno]ECDWDZ:>aS[zD?>:3
+R4
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R5
+R6
+Elcd_control_bck
+Z23 w1484291697
+R0
+R1
+R2
+R3
+Z24 8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control_backup.vhd
+Z25 FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control_backup.vhd
+l0
+L6
+Vhll1eDB8EgNeHkB4ZmF2j0
+!s100 ldIa6c4ecJ?XSfH8nBEHc2
+R4
+32
+Z26 !s110 1484291700
+!i10b 1
+Z27 !s108 1484291700.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control_backup.vhd|
+Z29 !s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control_backup.vhd|
+!i113 1
+R5
+R6
+Abehav
+R0
+R1
+R2
+DEx4 work 15 lcd_control_bck 0 22 hll1eDB8EgNeHkB4ZmF2j0
+l64
+L41
+V1L?>99VagGbd`W=j2a0n<2
+!s100 5EDZ7;oDz?7`4iGj_Ojd;1
+R4
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R5
+R6
+Emasterslaveinterface
+Z30 w1484259463
+R0
+R1
+R2
+R3
+Z31 8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/MasterSlaveInterface.vhd
+Z32 FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/MasterSlaveInterface.vhd
+l0
+L6
+V]dGU2;SzTXD;4kCfkD7ce1
+!s100 LmBKlWQdgRa:n7]Y^?f1>2
+R4
+32
+Z33 !s110 1484510902
+!i10b 1
+Z34 !s108 1484510902.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/MasterSlaveInterface.vhd|
+Z36 !s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/MasterSlaveInterface.vhd|
+!i113 1
+R5
+R6
+Abehav
+R0
+R1
+R2
+Z37 DEx4 work 20 masterslaveinterface 0 22 ]dGU2;SzTXD;4kCfkD7ce1
+l79
+L48
+Z38 VmC]^;kV:Nf9171b8GQTgU3
+Z39 !s100 Y7QhFj:z;K[LneBAJ[DRY1
+R4
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R5
+R6
+Etop_controller
+Z40 w1483891542
+R0
+R1
+R2
+R3
+Z41 8C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Top_Controller.vhd
+Z42 FC:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Top_Controller.vhd
+l0
+L6
+VCeF61g9gnA0L>H8Z3E4a^3
+!s100 D`E]S7SWT_8TE=Z@n^S0e3
+R4
+32
+Z43 !s110 1483966994
+!i10b 1
+Z44 !s108 1483966994.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Top_Controller.vhd|
+Z46 !s107 C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Top_Controller.vhd|
+!i113 1
+R5
+R6
+Abehav
+R22
+R37
+R14
+R0
+R1
+R2
+DEx4 work 14 top_controller 0 22 CeF61g9gnA0L>H8Z3E4a^3
+l63
+L41
+VkJ<[Y810?X;cXfaQ7Wi<L2
+!s100 nRb65N?N7mm^B5Al;JZKQ2
+R4
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R5
+R6

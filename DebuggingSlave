@@ -1,0 +1,22 @@
+force -freeze sim:/masterslaveinterface/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/masterslaveinterface/as_nReset 0 0 -cancel 100
+
+force -freeze sim:/masterslaveinterface/as_Address 010 300 -cancel 400 
+force -freeze sim:/masterslaveinterface/as_Write 1 300  -cancel 400 
+force -freeze sim:/masterslaveinterface/as_ChipSelect 1 300  -cancel 400 
+force -freeze sim:/masterslaveinterface/as_WriteData 11110000111100001111000011110000 300  -cancel 400 
+
+force -freeze sim:/masterslaveinterface/as_Address 011 1000 -cancel 1100
+force -freeze sim:/masterslaveinterface/as_Write 1 1000 -cancel 1100
+force -freeze sim:/masterslaveinterface/as_ChipSelect 1 1000 -cancel 1100
+force -freeze sim:/masterslaveinterface/as_WriteData 11110000111100001000000011110110 1000 -cancel 1100
+
+force -freeze sim:/masterslaveinterface/as_Address 011 2000 -cancel 2100 
+force -freeze sim:/masterslaveinterface/as_Write 1 2000 -cancel 2100 
+force -freeze sim:/masterslaveinterface/as_ChipSelect 1 2000 -cancel 2100 
+force -freeze sim:/masterslaveinterface/as_WriteData 11110000111100001000000011110110 2000 -cancel 2100 
+
+force -freeze sim:/masterslaveinterface/as_Address 011 3000 -cancel 3100
+force -freeze sim:/masterslaveinterface/as_Write 1 3000 -cancel 3100
+force -freeze sim:/masterslaveinterface/as_ChipSelect 1 3000 -cancel 3100
+force -freeze sim:/masterslaveinterface/as_WriteData 11110000111100001000000011110110 3000 -cancel 3100

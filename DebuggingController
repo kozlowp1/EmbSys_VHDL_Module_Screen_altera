@@ -1,0 +1,12 @@
+force -freeze sim:/lcd_control/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/lcd_control/as_nReset 0 0
+force -freeze sim:/lcd_control/as_nReset 1 200
+
+force -freeze sim:/lcd_control/DATA_CMD_in 101010101010101010 700 -cancel 1100
+force -freeze sim:/lcd_control/DCXi_in 1 700 -cancel 1100
+force -freeze sim:/lcd_control/as_write_in 1 700 -cancel 900
+
+
+force -freeze sim:/lcd_control/DATA_CMD_in 101010101011111110 1500 -cancel 1900 
+force -freeze sim:/lcd_control/DCXi_in 0 1500 -cancel 1900 
+force -freeze sim:/lcd_control/as_write_in 1 1500 -cancel 1700

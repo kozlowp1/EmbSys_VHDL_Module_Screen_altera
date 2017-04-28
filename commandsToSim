@@ -1,0 +1,59 @@
+force -freeze sim:/masterslaveinterface/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/masterslaveinterface/as_nReset 0 0
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 0
+force -freeze sim:/masterslaveinterface/f_almost_full 0 0
+force -freeze sim:/masterslaveinterface/f_empty 1 0
+force -freeze sim:/masterslaveinterface/START 1 0
+force -freeze sim:/masterslaveinterface/as_nReset 1 100
+force -freeze sim:/masterslaveinterface/START 0 200
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 400 
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 500 
+force -freeze sim:/masterslaveinterface/am_readData 11000011110000111111111111111111 400 -cancel 500
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 700 
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 800 
+force -freeze sim:/masterslaveinterface/am_readData 11000011111111001100000000000011 700 -cancel 800
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 800 
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 900 
+force -freeze sim:/masterslaveinterface/am_readData 11000011110000111100001111000011 800 -cancel 900
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 1100
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 1200
+force -freeze sim:/masterslaveinterface/am_readData 11000000011100000000001111000011 1100 -cancel 1200
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 1300
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 1400
+force -freeze sim:/masterslaveinterface/am_readData 11000000000000000111001111000011 1300 -cancel 1400
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 1600
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 1700
+force -freeze sim:/masterslaveinterface/am_readData 11000000111000000000001111001111 1600 -cancel 1700
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 1800
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 1900
+force -freeze sim:/masterslaveinterface/am_readData 11000011000000001100001111000011 1800 -cancel 1900
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 2000
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 2100
+force -freeze sim:/masterslaveinterface/am_readData 11000000000001111100001111000011 2000 -cancel 2100
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 2200
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 2300
+force -freeze sim:/masterslaveinterface/am_readData 11001111100000000000001111000011 2200 -cancel 2300
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 3000
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 3100
+force -freeze sim:/masterslaveinterface/am_readData 11000000000000011110001111000011 3000 -cancel 3100
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 3400
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 3500
+force -freeze sim:/masterslaveinterface/am_readData 11000000000000000000111111000011 3400 -cancel 3500
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 3700
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 3800
+force -freeze sim:/masterslaveinterface/am_readData 11000000000011111100001111000011 3700 -cancel 3800
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 4000
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 4100
+force -freeze sim:/masterslaveinterface/am_readData 11000000000000000000001111000011 4000 -cancel 4100
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 4400
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 4500
+force -freeze sim:/masterslaveinterface/am_readData 11000000000111000000001111000011 4400 -cancel 4500
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 5500
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 5600
+force -freeze sim:/masterslaveinterface/am_readData 11000000011100000000001111000011 5500 -cancel 5600
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 6000
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 6200
+force -freeze sim:/masterslaveinterface/am_readData 11000001110000000000001111000011 6000 -cancel 6200
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 1 7000
+force -freeze sim:/masterslaveinterface/am_ReadDataValid 0 7100
+force -freeze sim:/masterslaveinterface/am_readData 11001111000000000000001111000011 7000 -cancel 7100

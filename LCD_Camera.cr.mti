@@ -1,0 +1,48 @@
+C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Top_Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/Top_Controller.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Top_Controller
+-- Compiling architecture behav of Top_Controller
+-- Loading entity fifo
+-- Loading entity MasterSlaveInterface
+-- Loading entity LCD_Control
+
+} {} {}} C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LCD_Control
+-- Compiling architecture behav of LCD_Control
+
+} {} {}} C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control_backup.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/LCD_Control_backup.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LCD_Control_bck
+-- Compiling architecture behav of LCD_Control_bck
+
+} {} {}} C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/fifo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/fifo.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fifo
+-- Compiling architecture SYN of fifo
+
+} {} {}} C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/MasterSlaveInterface.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/PawelK/Desktop/EmbeddedSystems/Lab4/hw/modelsim/MasterSlaveInterface.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MasterSlaveInterface
+-- Compiling architecture behav of MasterSlaveInterface
+
+} {} {}}
